@@ -1,1 +1,2 @@
-# geo_logist
+# Geologist
+Geologist Project
