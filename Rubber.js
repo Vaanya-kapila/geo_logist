@@ -1,11 +1,11 @@
 class Rubber{
 	constructor(x,y,r)
-{
-		  var options = {
-			'density':4,
-			'friction': 1.0,
-			'restitution':0.5
-		  }
+	{
+		var options={
+			restitution:0.3,
+			friction:5,
+			density:1
+		}
 		this.x=x;
 		this.y=y;
 		this.r=r
@@ -22,7 +22,7 @@ class Rubber{
 			strokeWeight(4);
 			stroke("black");
 			fill("darkblue");
-			ellipse(0,0,this.r,this.r )
+			ellipse(0,0,this.r, this.r);
 			pop()
 	}
 
